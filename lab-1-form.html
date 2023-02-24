@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+
+<body>
+  <header>
+    <nav>
+      <!-- works like <a href="/index.html">Home</a> -->
+      <a href="/">Home</a>
+      <a href="./form">Form</a>
+    </nav>
+  </header>
+  <main>
+    <form method="POST" action="http://localhost:3000/profile">
+      <div>
+        <label for="name">First name: </label>
+        <input type="text" name="name" id="name" required>
+      </div>
+      <div>
+        <label for="name">Last name: </label>
+        <input type="text" name="name" id="name" required>
+      </div>
+      <div>
+        <input type="radio" id="red" name="colour" value="red" checked>
+        <label for="red">Red</label>
+      </div>
+
+      <div>
+        <input type="radio" id="green" name="colour" value="green">
+        <label for="green">Green</label>
+      </div>
+
+      <div>
+        <input type="radio" id="blue" name="colour" value="blue">
+        <label for="blue">Blue</label>
+      </div>
+      <div>
+        <input type="checkbox" id="html" name="html" value="html" checked>
+        <label for="html">HTML</label>
+      </div>
+
+      <div>
+        <input type="checkbox" id="css" name="css" value="css">
+        <label for="css">CSS</label>
+      </div>
+      <label for="select">Choose an instrument:</label>
+      <select name="instrument" id="select">
+        <option value="">--Choose an option--</option>
+        <option value="guitar">Guitar</option>
+        <option value="violin">Violin</option>
+        <option value="piano">Piano</option>
+        <option value="drums">Drums</option>
+        <option value="bass">Bass</option>
+        <option value="trumpet">Trumpet</option>
+      </select>
+      <button type="submit">Submit form</button>
+    </form>
+  </main>
+  <footer>Copyright 2021 &copy;</footer>
+</body>
+
+</html>
