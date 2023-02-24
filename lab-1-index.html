@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Lab 1 Webpage</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Lab 2.1 html exercise">
+  <meta name="keywords" content="html, learning, practice, coding">
+  <meta name="author" content="Keren">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- style for table -->
+  <style>
+    table,
+    th,
+    td {
+      border: 1px solid black;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <!-- works like <a href="/index.html">Home</a> -->
+      <a href="/">Home</a>
+      <a href="/form">Form</a>
+    </nav>
+  </header>
+  <main>
+    <h1>My HTML Learning Journey</h1>
+    <h2>Learning elements - div, span, p, pre, ul, li, ol, article</h2>
+    <article>
+      <div>One potato</div>
+      <div>Two potato</div>
+      <div>Three potato</div>
+      <span>Seeya </span><span>Later </span><span>Alligator</span>
+      <p>
+        p represents paragraph
+      </p>
+      <pre>Text in         a pre element
+    is displayed in a fixed-width
+    font, and it preserves
+    both      spaces and
+    line breaks
+    </pre>
+      <ul>
+        <li>Graphic Design</li>
+        <li>Illustration</li>
+        <li>Web Design</li>
+      </ul>
+      <ol>
+        <li>Guitar</li>
+        <li>Mountain biking</li>
+        <li>Cooking</li>
+      </ol>
+    </article>
+    <article>
+      <table>
+        <thead>
+          <tr>
+            <th colspan="2">First header</th>
+            <th>Second header</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>First cell - first row</td>
+            <td>Second cell - first row</td>
+            <td rowspan="3">Third cell - first row</td>
+          </tr>
+          <tr>
+            <td>First cell - second row</td>
+            <td>Second cell - second row</td>
+          </tr>
+          <tr>
+            <td>First cell - third row</td>
+            <td>Second cell - third row</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+            <th>Header 3</th>
+            <th>Header 4</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Hi, I'm your first cell.</td>
+            <td>I'm your second cell.</td>
+            <td>I'm your third cell.</td>
+            <td>I'm your fourth cell.</td>
+          </tr>
+          <tr>
+            <td>Hi, I'm your first cell.</td>
+            <td>I'm your second cell.</td>
+            <td>I'm your third cell.</td>
+            <td>I'm your fourth cell.</td>
+          </tr>
+          <tr>
+            <td>Hi, I'm your first cell.</td>
+            <td>I'm your second cell.</td>
+            <td>I'm your third cell.</td>
+            <td>I'm your fourth cell.</td>
+          </tr>
+        </tbody>
+      </table>
+      <img src="https://picsum.photos/200/300" alt="" />
+      <video width="720" height="300" controls poster="https://w3codegenerator.com/img/BigBuckBunny.png">
+        <source type="video/mp4"
+          src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4">
+        <source type="video/ogg" src="">
+        <source type="video/webm" src="">
+        Your browser does not support the video tag.
+      </video>
+      <audio controls>
+        <source src="https://w3codegenerator.com/audio/audio.mp3" type="audio/mpeg">
+        <source src="" type="audio/ogg">
+        <source src="" type="audio/wav">
+        <p>Your browser does not support the video tag.</p>
+      </audio>
+    </article>
+  </main>
+  <footer>Copyright 2021 &copy;</footer>
+</body>
+
+</html>
